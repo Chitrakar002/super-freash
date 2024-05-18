@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: rgb(37, 35, 36);
+    display: flex;
+    justify-content:center ;
+    align-items: center;position: relative;
+
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgb(253, 249, 249);
+
+
+}
+.hourStick{
+    width: 15px;
+    height: 130px;
+    background-color: rgba(255, 255, 255, 0.822);
+    transform-origin:bottom;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(52%,-100%);
+}
+.minStick{
+    width: 8px;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.822);
+    transform-origin:bottom;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(52%,-100%);
+}
+.secStick{
+    width: 3px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.822);
+    transform-origin:bottom;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(52%,-100%); 
+}
